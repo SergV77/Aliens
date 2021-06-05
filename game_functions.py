@@ -156,5 +156,5 @@ def update_aliens(ai_settings, stats, screen, ship, aliens, bullets):
     #Проверка коллизий "пришелец-корабль"
     if pygame.sprite.spritecollideany(ship, aliens):
         ship_hit(ai_settings, stats, screen, ship, aliens, bullets)
-        print("Корабль уничтожен!!!")
+
 
