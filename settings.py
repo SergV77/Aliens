@@ -9,6 +9,7 @@ class Settings:
 
         #Настройки корабля
         self.ship_speed_factor = 1.5
+        self.ship_limit = 3
 
         # Настройки пришельцев
         self.alien_speed_factor = 1
@@ -17,7 +18,7 @@ class Settings:
         self.fleet_direction = 1
 
         #Настройки пули
-        self.bullet_speed_factor = 1
+        self.bullet_speed_factor = 3
         self.bullet_width = 3
         self.bullet_height = 15
         self.bullet_color = 255, 0, 0
